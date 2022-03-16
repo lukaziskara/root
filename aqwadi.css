@@ -10,9 +10,20 @@ body{
 
 .box1 {
     border: 10px rgb(73, 14, 150) solid;
+    opacity: 0.3;
+    background-color: black;
+    width: 300px;
+    height: 300px;
+    transition: 0.3s ease-in-out;
+}
+.box1:hover{
+    border: 10px rgb(73, 14, 150) solid;
     width: 300px;
     height: 300px;
     background-color: brown;
+    opacity: 1;
+    transition: 0.3s ease-in-out;
+    transform: translateY(15px);
 }
 .chemi_yuti {
     background-color:  green;
@@ -24,7 +35,7 @@ body{
     height: 300px;
 }
 .box-padding{
-    margin: 30px;
+    margin: 0px;
 }
 .box-flex{
     display: flex;
